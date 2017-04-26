@@ -16,11 +16,13 @@ namespace CSE_2120
         {
             foreach (String i in input.Split(' '))
             {
+                //Add splitted strings
                 al.Add(i);
             }
         }
         public static void Call(bool first)
         {
+            //This prints data first and side by side to compare and stuff
             if (first)
             {
                 foreach (String i in al)
